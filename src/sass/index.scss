@@ -1,2 +1,57 @@
 @import './common';
 @import './example';
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecede8;
+    color: #434455;
+    }
+
+    .container{
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-form{
+        align-items: center;
+    }
+    
+    .btnElem{
+        color: #080405;
+        background-color: rgb(187, 193, 191);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .load-more{
+        color: #080405;
+        background-color: rgb(187, 193, 191);
+    }
+
+    .btn{
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+
+    }
+    .info-item{
+        text-align: center;
+    }
+
+    .search-form{
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+    }
+
+.gallery{
+    min-height: 95vh;
+}

@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #d084ad;
+    color: #434455;
+    }
+
+    .photo-card{
+        width: 600px;
+    }
+
+    .container{
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+        }
+    
+    .breed-select{
+    width: 200px;
+        }
+    
+    .catimage{
+    width: 600px;
+    
+    }
+    
+    .catdescr{
+        text-align: center;
+    }
+    
+    .catname{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2E2F42;
+        line-height: 1.11;
+    }
+    
+    .cat-info{
+    width:  px;
+    }
+    
+    .caties{
+        text-align: left;
+    }
